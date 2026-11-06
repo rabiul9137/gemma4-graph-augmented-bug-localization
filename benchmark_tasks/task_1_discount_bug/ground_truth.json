@@ -1,0 +1,13 @@
+{
+    "task_id": "task_1_discount_bug",
+    "buggy_file": "pricing.py",
+    "buggy_function": "calculate_total",
+    "faulty_statement": "discount = subtotal * discount_rate",
+    "root_cause": "Discount percentage is not divided by 100.",
+    "correct_statement": "discount = subtotal * (discount_rate / 100)",
+    "tests": {
+        "total": 4,
+        "passed": 1,
+        "failed": 3
+    }
+}

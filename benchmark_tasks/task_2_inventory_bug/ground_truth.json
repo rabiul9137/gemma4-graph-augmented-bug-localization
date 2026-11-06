@@ -1,0 +1,13 @@
+{
+    "task_id": "task_2_inventory_bug",
+    "buggy_file": "inventory.py",
+    "buggy_function": "check_stock",
+    "faulty_statement": "return available < quantity",
+    "root_cause": "The comparison operator is reversed. The function returns True when stock is insufficient instead of when stock is sufficient.",
+    "correct_statement": "return available >= quantity",
+    "tests": {
+        "total": 4,
+        "passed": 0,
+        "failed": 4
+    }
+}

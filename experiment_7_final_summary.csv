@@ -1,0 +1,4 @@
+method,file_correct_correct,file_correct_evaluated,file_correct_accuracy,function_correct_correct,function_correct_evaluated,function_correct_accuracy,statement_correct_correct,statement_correct_evaluated,statement_correct_accuracy,root_cause_correct_correct,root_cause_correct_evaluated,root_cause_correct_accuracy
+full,2,3,66.67,2,3,66.67,2,3,66.67,2,3,66.67
+graph,2,3,66.67,2,3,66.67,2,3,66.67,3,3,100.0
+random,1,13,7.69,1,13,7.69,1,7,14.29,0,13,0.0

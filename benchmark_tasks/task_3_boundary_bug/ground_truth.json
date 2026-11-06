@@ -1,0 +1,13 @@
+{
+    "task_id": "task_3_boundary_bug",
+    "buggy_file": "validation.py",
+    "buggy_function": "validate_quantity",
+    "faulty_statement": "return quantity > 0 and quantity < 100",
+    "root_cause": "The upper boundary is excluded because the code uses < 100 instead of <= 100.",
+    "correct_statement": "return quantity > 0 and quantity <= 100",
+    "tests": {
+        "total": 5,
+        "passed": 4,
+        "failed": 1
+    }
+}
