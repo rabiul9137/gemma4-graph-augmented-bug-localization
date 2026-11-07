@@ -126,7 +126,7 @@ The current benchmark contains three synthetic bug-localization tasks.
 
 | Graph Retrieval | 66.67% | 66.67% | 66.67% | 100.00% |
 
-| Random Retrieval | 7.69% | 7.69% | 14.29% | 0.00% |
+| Random Retrieval | 6.67% | 6.67% | 6.67% | 0.00% |
 
 
 

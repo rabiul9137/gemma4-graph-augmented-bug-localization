@@ -1,4 +1,4 @@
-method,metric,accuracy_percent,valid_count
+method,metric,accuracy_percent,evaluation_count
 full,file_correct,66.67,3
 full,function_correct,66.67,3
 full,statement_correct,66.67,3
@@ -7,7 +7,7 @@ graph,file_correct,66.67,3
 graph,function_correct,66.67,3
 graph,statement_correct,66.67,3
 graph,root_cause_correct,100.0,3
-random,file_correct,7.69,13
-random,function_correct,7.69,13
-random,statement_correct,14.29,7
-random,root_cause_correct,0.0,13
+random,file_correct,6.67,15
+random,function_correct,6.67,15
+random,statement_correct,6.67,15
+random,root_cause_correct,0.0,15

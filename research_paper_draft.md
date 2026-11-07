@@ -116,7 +116,7 @@ Four metrics are used:
 
 
 
-Accuracy is calculated from valid predictions. Missing or invalid outputs are not counted as correct predictions.
+Accuracy is calculated across all evaluation records. Abstentions (Uncertain predictions) and missing metric scores are counted as incorrect predictions (0).
 
 
 
@@ -152,7 +152,7 @@ This produces 21 evaluation records in total.
 
 | Graph Retrieval | 66.67% | 66.67% | 66.67% | 100.00% |
 
-| Random Retrieval | 7.69% | 7.69% | 14.29% | 0.00% |
+| Random Retrieval | 6.67% | 6.67% | 6.67% | 0.00% |
 
 
 
@@ -168,7 +168,7 @@ Graph Retrieval achieved higher observed root-cause accuracy, with all three eva
 
 
 
-Random Retrieval achieved substantially lower accuracy among valid predictions. However, some random outputs were missing or invalid, and therefore the valid sample counts differ across metrics.
+Random Retrieval achieved substantially lower accuracy among valid predictions. However, random abstentions and missing metric scores were counted as incorrect, so all metrics use the full set of 15 random evaluations.
 
 
 
@@ -192,7 +192,7 @@ This study has several important limitations:
 
 2\. The small benchmark does not support statistically strong generalization.
 
-3\. Random Retrieval has missing or invalid outputs.
+3\. Random Retrieval produced abstentions or unscored outputs, which are counted as incorrect predictions (0) in the audited evaluation.
 
 4\. Real-world open-source repositories have not yet been evaluated.
 

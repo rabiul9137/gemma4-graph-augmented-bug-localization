@@ -1,0 +1,11 @@
+{
+    "experiment": "Experiment 7",
+    "total_records": 21,
+    "scoring_policy": "Abstentions and missing metric scores are counted as incorrect predictions (0).",
+    "methods": {
+        "full": 3,
+        "graph": 3,
+        "random": 15
+    },
+    "missing_scores_after_audit": 0
+}
