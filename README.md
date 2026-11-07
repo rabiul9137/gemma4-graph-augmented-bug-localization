@@ -188,3 +188,13 @@ LinkedIn: https://linkedin.com/in/rabiulislam01/
 
 
 
+## Research Report and Results
+
+- [Preliminary Research Report](research_report.md)
+- [Audited Experiment 7 Results](experiment_7_audited_results.csv)
+- [Detailed Scoring Results](experiment_7_detailed_scoring.csv)
+- [Final Experiment Summary](experiment_7_final_summary.csv)
+
+## Research Status
+
+This is a preliminary experimental study based on three synthetic Python bug-localization tasks. Further validation on larger benchmarks and real-world repositories is required.
